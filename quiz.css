@@ -1,0 +1,31 @@
+body {
+  background-color: blue;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  background-color: white;
+  width: 500px;
+  height: 500px;
+  position: relative;
+  left: 40%;
+  padding: 10px;
+}
+
+.hide {
+  display: none;
+}
+
+#start {
+  visibility: visible;
+  position: relative;
+}
+
+.answer {
+  background-color: #e7e7e7;
+}
+
+ul {
+  list-style-type: none;
+}

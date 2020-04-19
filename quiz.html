@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andrew Quiz</title>
+    <link rel="stylesheet" type="text/css" href="quiz.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="question">Welcome to Andrew Quiz</h1>
+      <h2 class="timer">You lost 5 seconds for every wrong answer</h2>
+
+      <div id="question container" class="hide">
+        <h2 id="questionHeader"></h2>
+        <button id="a" class="answer">Answer 1</button>
+        <button id="b" class="answer">Answer 2</button>
+        <button id="c" class="answer">Answer 3</button>
+        <button id="d" class="answer">Answer 4</button>
+      </div>
+
+      <div id="scoreBoard" class="hide">
+        <input type="text" id="player" placeholder="Enter your name here" />
+        <button id="saveScore">Store Score</button>
+        <ul id="leaderboard"></ul>
+      </div>
+      <button id="start">Start</button>
+
+      <br />
+      <button id="next" class="hide">Next</button>
+    </div>
+
+    <script src="quiz.js"></script>
+  </body>
+</html>
